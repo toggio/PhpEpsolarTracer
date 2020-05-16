@@ -45,7 +45,7 @@ if ($tracer->getRealTimeData()) {
 	$equipStatus = $tracer->realtimeData[16];
 	$chargStatus = 0b11 & ($equipStatus >> 2);
 	switch ($chargStatus) {
-		case 0: $eStatus = "No charging"; break;
+		case 0: $eStatus = "Not charging"; break;
 		case 1: $eStatus = "Float (13.8V)"; break;
 		case 2: $eStatus = "Boost (14.4V)"; break;
 		case 3: $eStatus = "Equalization (14.6V)"; break;

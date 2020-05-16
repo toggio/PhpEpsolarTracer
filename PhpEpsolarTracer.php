@@ -73,7 +73,7 @@ class PhpEpsolarTracer
 		"Consumed energy this year",		// 3308-3309
 		"Total consumed energy",			// 330A-330B
 		"Generated energy today",			// 330C-330D
-		"Generated energy this moth",		// 330E-330F
+		"Generated energy this month",		// 330E-330F
 		"Generated energy this year",		// 3310-3311
 		"Total generated energy",			// 3312-3313
 		"Carbon dioxide reduction",			// 3314-3315
